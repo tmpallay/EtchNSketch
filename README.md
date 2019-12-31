@@ -4,11 +4,11 @@ While playing around with curses on my Macbook, I decided to create a simple pro
 
 ### Controls
 
-arrow keys	-	Move the curser and draw
-r 			- 	toggle eraser
-c 			-	clear drawing
-p 			-	press this key and then press the key of the desired character to draw with. The default character is '0'
-q 			-	quit
+* arrow keys	-	Move the curser and draw
+* r 			- 	toggle eraser
+* c 			-	clear drawing
+* p 			-	press this key and then press the key of the desired character to draw with. The default character is '0'
+* q 			-	quit
 
 ### Notes
 
@@ -19,10 +19,15 @@ zsh 5.7.1 (x86_64-apple-darwin19.0)
 I am not sure how curses behaves with other shells, but I may test with bash in the future.
 
 Feel free to download my code, try it yourself, and make improvements. You can compile with:
-> gcc -lncurses -o <*output file name*> etch_n_sketch.c
+
+```(zsh)
+gcc -lncurses -o <*output file name*> etch_n_sketch.c
+```
 
 Then run with:
-> ./etch_n_sketch
 
+```(zsh)
+./etch_n_sketch
+```
 
 Have fun!
