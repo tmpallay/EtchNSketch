@@ -21,7 +21,7 @@ I am not sure how curses behaves with other shells, but I may test with bash in 
 Feel free to download my code, try it yourself, and make improvements. You can compile with:
 
 ```(zsh)
-gcc -lncurses -o <*output file name*> etch_n_sketch.c
+gcc -lncurses -o <output file name> etch_n_sketch.c
 ```
 
 Then run with:
