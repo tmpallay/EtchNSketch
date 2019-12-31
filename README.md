@@ -1,4 +1,4 @@
-#Etch n Sketch
+# Etch n Sketch
 
 While playing around with curses on my Macbook, I decided to create a simple program that allows the users to draw in a terminal window with '0' characters. Unlike a traditional etch_n_sketch toy, you can also activate an eraser with the 'r' key. The drawing is cleared with the 'c' key. Quit by pressing 'q'.
 
