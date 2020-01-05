@@ -28,9 +28,6 @@ int main() {
 		exit( EXIT_FAILURE );
     }
 
-    curs_set( 0 );
-    noecho();
-
     getmaxyx( mainwin, winy, winx );
     xpos = winx / 2;
     ypos = winy / 2;
@@ -40,6 +37,8 @@ int main() {
     while( active == 1 ) {
 
     	getmaxyx( mainwin, winy, winx );
+    	if( curs_set( 0 ) == ERR ) fprintf( stderr, "Error making cursor invisible.\n");
+    	noecho();
 
     	ex = xpos;
     	ey = ypos;
